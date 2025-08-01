@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/inputTerm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Terimi girin" />
+
+    <Button
+        android:id="@+id/btnGenerate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Soru Sor"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#000000"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/btnBackMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Geri Dön"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#000000"
+        android:textColor="#FFFFFF"
+        />
+
+</LinearLayout>
